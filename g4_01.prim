@@ -1,0 +1,116 @@
+##G4.PRIM-FORMAT-2.4
+/BoundingBox       -2294.29597       -2294.29597       -2294.29597        2294.29597        2294.29597        2294.29597
+!SetCamera
+!OpenDevice
+!BeginModeling
+#--------------------
+#/PVName     World.0
+/ColorRGB                 1                 1                 1
+/ForceWireframe  0
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Box        141.832747               250           2276.22
+#--------------------
+#/PVName          BP1.0
+/Ndiv  24
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs              27.5              29.5             242.5                 0        6.28318531
+#--------------------
+#/PVName          BP1_v.0
+/Ndiv  24
+/ColorRGB                 0                 1                 0
+/ForceWireframe  0
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs                 0              27.5             242.5                 0        6.28318531
+#--------------------
+#/PVName          Tube2_C_R.0
+/Ndiv  24
+/ColorRGB                 1                 1                 1
+/ForceWireframe  0
+/Origin                 0                 0            313.25
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs              27.5              29.5             70.75                 0        6.28318531
+#--------------------
+#/PVName          Tube2_C_R.0
+/Ndiv  24
+/ColorRGB                 1                 1                 1
+/ForceWireframe  0
+/Origin                 0                 0            313.25
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs                 0              27.5             70.75                 0        6.28318531
+#--------------------
+#/PVName          Tube2_E_R.0
+/Ndiv  24
+/ColorRGB                 1                 1                 1
+/ForceWireframe  0
+/Origin                 0                 0             463.9
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs              27.5              29.5              79.9                 0        6.28318531
+#--------------------
+#/PVName          Tube2_E_R.0
+/Ndiv  24
+/ColorRGB                 1                 1                 1
+/ForceWireframe  0
+/Origin                 0                 0             463.9
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Tubs                 0              27.5              79.9                 0        6.28318531
+#--------------------
+#/PVName          Tube4_R_U.0
+/Ndiv  24
+/ColorRGB                 1                 1                 1
+/ForceWireframe  0
+/Origin        59.5476493                 0        1113.76007
+/BaseVector       0.997478082                 0     -0.0709751758                 0                 1                 0
+/Tubs              27.5              29.5            290.35                 0        6.28318531
+#--------------------
+#/PVName          Tube4_R_U_v.0
+/Ndiv  24
+/ColorRGB                 1                 1                 1
+/ForceWireframe  0
+/Origin        59.5476493                 0        1113.76007
+/BaseVector       0.997478082                 0     -0.0709751758                 0                 1                 0
+/Tubs                 0              27.5            290.35                 0        6.28318531
+#--------------------
+#/PVName          Tube5_C_R_U.0
+/Ndiv  24
+/ColorRGB                 1                 1                 1
+/ForceWireframe  0
+/Origin        100.028355                 0        1682.67164
+/BaseVector       0.997478082                 0     -0.0709751758                 0                 1                 0
+/Tubs              27.5              29.5            290.35                 0        6.28318531
+/ColorRGB                 1                 0                 0
+/ForceWireframe  0
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Polyline
+/PLVertex                 0                 0                 0
+/PLVertex               500                 0                 0
+/EndPolyline
+/ColorRGB                 0                 1                 0
+/ForceWireframe  0
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Polyline
+/PLVertex                 0                 0                 0
+/PLVertex                 0               500                 0
+/EndPolyline
+/ColorRGB                 0                 0                 1
+/ForceWireframe  0
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/Polyline
+/PLVertex                 0                 0                 0
+/PLVertex                 0                 0               500
+/EndPolyline
+/ColorRGB                 0                 0                 1
+/Origin                 0                 0                 0
+/BaseVector                 1                 0                 0                 0                 1                 0
+/MarkText2DS                 0                0                0               50              -50             -200 world
+#--------------------
+!EndModeling
+!DrawAll
+!CloseDevice
